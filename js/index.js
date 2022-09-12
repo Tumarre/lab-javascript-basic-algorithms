@@ -19,13 +19,13 @@ if (hacker1.length > hacker2.length) {
 }
 // Iteration 3: Loops
 
-const reversedArray = hacker1.split("");
+const reversedArray = hacker1.toUpperCase().split("");
 console.log(reversedArray);
 const reversed = hacker2.split("");
 console.log(reversed.reverse());
 console.log("Joined reserved array", reversed.join(""));
 
-console.log(reversed, reversedArray);
+// console.log(reversed, reversedArray);
 if (reversedArray[0] > reversed[0]) {
   console.log("The driver's name goes first.");
 } else if (reversedArray[0] < reversed[0]) {
